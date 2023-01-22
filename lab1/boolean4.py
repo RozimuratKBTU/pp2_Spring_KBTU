@@ -1,0 +1,3 @@
+print(bool("abc"))
+
+True
