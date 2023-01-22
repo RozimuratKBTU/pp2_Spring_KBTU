@@ -1,3 +1,3 @@
-Rozimurat Mirpulatov 
-Student of KBTU
-Software Engineer
+Rozimurat Mirpulatov,
+Student of KBTU,
+Software Engineer,
