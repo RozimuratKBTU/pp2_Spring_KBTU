@@ -1,4 +1,4 @@
-# FOR LOOP
+        # FOR LOOP
 # Exercise 1
 
 fruits = ["apple", "banana", "cherry"]
