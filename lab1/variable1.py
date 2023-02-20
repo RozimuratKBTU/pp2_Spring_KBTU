@@ -1,2 +1,0 @@
-
-carname= "Volvo"

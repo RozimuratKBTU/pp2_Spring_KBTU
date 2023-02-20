@@ -1,1 +1,0 @@
-myfirst_name = "John"

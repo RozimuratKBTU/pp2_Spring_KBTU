@@ -1,3 +1,0 @@
-print(bool("abc"))
-
-True
