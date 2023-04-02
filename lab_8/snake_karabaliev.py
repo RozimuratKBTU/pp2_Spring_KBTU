@@ -1,4 +1,4 @@
-
+# импорт библиотек
 import pygame
 import time
 import random
@@ -50,17 +50,6 @@ change_to = direction
 # начальная оценка
 score = 0
 
-
-# My code
-level = 1
-font = pygame.font.Font(None, 30)
-def drawText(text, font, surface, x, y) :
-    textobj = font.render(text, 1, 'white')
-    textrect = textobj.get_rect()
-    textrect.topleft = (x, y)
-    surface.blit(textobj, textrect)
-
-# ends here
 
 # отображение функции Score
 def show_score(choice, color, font, size) :
@@ -177,19 +166,9 @@ while True :
         game_over()
 
     # Touching the snake body
-    for block in snake_body[1:]:
+    for block in snake_body[1 :] :
         if snake_position[0] == block[0] and snake_position[1] == block[1] :
             game_over()
-
-    # My code
-    if score >= level * 30:
-        level += 1
-        snake_speed += 5
-
-    drawText('Level %s' % (level), font, game_window, 640, 10)
-    # ends here
-
-
 
     # displaying score countinuously
     show_score(1, white, 'times new roman', 20)
