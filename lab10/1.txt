@@ -1,0 +1,4 @@
+Name, Age, Occupation
+John, 32, Engineer
+Jane, 27, Teacher
+Bob, 45, Accountant
