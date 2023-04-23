@@ -1,7 +1,6 @@
 create table PhoneBoook(
 	id int  primary key,
 	first_name varchar(50) not null,
-	last_name varchar(50) not null,
 	phone_number varchar(15) not null
 	
 );
